@@ -2141,20 +2141,6 @@ blockquote {
         padding: 0;
     }
 
-    /* Social */
-    #header aside {
-        clear: both;
-        padding: 0;
-    }
-
-    #header ul.social-icons {
-        margin-top: 0;
-    }
-
-    #banner-content.row {
-        padding-top: 85px !important;
-    }
-
     /*-----------------Sections-----------------*/
 
     /* Call to Action*/
