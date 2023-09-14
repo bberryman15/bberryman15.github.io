@@ -5,9 +5,68 @@
         <link rel="stylesheet" href="styling.css"> 
     </head>
     <body>
-        <h1>Welcome to My Site!</h1>
-        <h2>Second header</h2>
-        <hr>
-        <p>My first paragraph.</p>
+        <ul id="nav-bar" class="outer">
+            <li class="nav-elem"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-elem" id="contact-nav-elem"><a href="#footer" class="nav-link">Contact Me</a></li>
+        </ul>
+        <div id="content">
+            <h1 id="welcome">Welcome to My Site!</h1>
+            <div class="vertical-split">
+                <div id="about-me-text">
+                    <h2 id="about-me-header">About Me:</h2>
+                    <p id="about-me-paragraph">My name is Blake Berryman and I am third year student at The University of 
+                        Texas at Austin currently pursuing a Bachelor of Science in Computer Science 
+                        with a minor in European Studies. I am currently seeking an internship for 
+                        the summer of 2024 within my field. 
+                    </p>
+                </div>
+                <div id="about-me-image">
+                    <img src="images/placeholder.jpg" alt="headshot" id="headshot">
+                </div>
+            </div>
+            <div class="vertical-split">
+                <div class="skills-coursework">
+                    <h2>My Skills</h2>
+                    <div class="skills-columns">
+                        <ul class="skill-list">
+                            <li class="skill-list-elem">Java</li>
+                            <li class="skill-list-elem">Python</li>
+                            <li class="skill-list-elem">CSS</li>
+                            <li class="skill-list-elem">S3</li>
+                            <li class="skill-list-elem">Kubernetes</li>
+                        </ul>
+                        <ul class="skill-list">
+                            <li class="skill-list-elem">C</li>
+                            <li class="skill-list-elem">HTML</li>
+                            <li class="skill-list-elem">x86 Assembly</li>
+                            <li class="skill-list-elem">DynamoDB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-coursework">
+                    <h2>Completed Coursework</h2>
+                    <div class="skills-columns">
+                        <ul class="skill-list">
+                            <li class="skill-list-elem">Operating Systems (CS439)</li>
+                            <li class="skill-list-elem">Data Structures (CS314)</li>
+                            <li class="skill-list-elem">Discrete Math (CS311)</li>
+                        </ul>
+                        <ul class="skill-list">
+                            <li class="skill-list-elem">Computer Architecture (CS429)</li>
+                            <li class="skill-list-elem">Cloud Computing (CS378)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="outer">
+            <p class="footer-text">You can reach me through e-mail at:</p>
+            <p id="footer-email">bberryman@utexas.edu</p>
+            <p class="footer-text">Or you can find me on these platforms:</p>
+            <ul id="contact-list">
+                <li class="contact-link"><a href="https://utaustin.joinhandshake.com/stu/users/33477669" target="_blank">Handshake</a></li>
+                <li class="contact-link"><a href="https://www.linkedin.com/in/blake-berryman-820006291/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
     </body>
 </html>

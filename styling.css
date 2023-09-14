@@ -1,3 +1,155 @@
-h1 {
-    color: green;
+body {
+    margin: 0px;
+}
+
+a:link, a:hover, a:visited, a:active {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.outer {
+    background-color: #DCDCDC;
+    margin: 0;
+}
+
+#content {
+    background-color: #EAEAEA;
+}
+
+/* Navigation bar styling */
+#nav-bar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.nav-elem {
+    float: left;
+    font-weight: bold;
+}
+
+#contact-nav-elem {
+    float:right
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    background-color: #B2B2B2;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+p, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#welcome {
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.vertical-split {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin: 0px;
+}
+
+#about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 46%;
+    padding: 2%;
+}
+
+#about-me-paragraph {
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+}
+
+#about-me-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 46%;
+    padding: 2%;
+}
+
+#headshot {
+    height: 200px;
+}
+
+.skills-coursework {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    width: 46%;
+    padding: 2%;
+}
+
+.skills-columns {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.skill-list-elem {
+    font-size: 20px;
+    padding: 7px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0px;
+    padding: 20px;
+}
+
+#footer-email {
+    margin: 0px;
+}
+
+#contact-list {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.contact-link {
+    padding-bottom: 10px;
 }
